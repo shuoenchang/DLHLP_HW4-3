@@ -39,6 +39,8 @@ logger = logging.getLogger(__name__)
 XLNET_PRETRAINED_MODEL_ARCHIVE_MAP = {
     'xlnet-base-cased': "https://s3.amazonaws.com/models.huggingface.co/bert/xlnet-base-cased-pytorch_model.bin",
     'xlnet-large-cased': "https://s3.amazonaws.com/models.huggingface.co/bert/xlnet-large-cased-pytorch_model.bin",
+    'XLNet-mid': "https://s3.amazonaws.com/models.huggingface.co/bert/hfl/chinese-xlnet-mid/pytorch_model.bin",
+    'XLNet-base': "https://s3.amazonaws.com/models.huggingface.co/bert/hfl/chinese-xlnet-base/pytorch_model.bin",
 }
 
 

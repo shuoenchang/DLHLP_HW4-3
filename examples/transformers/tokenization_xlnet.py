@@ -34,12 +34,16 @@ PRETRAINED_VOCAB_FILES_MAP = {
     {
     'xlnet-base-cased': "https://s3.amazonaws.com/models.huggingface.co/bert/xlnet-base-cased-spiece.model",
     'xlnet-large-cased': "https://s3.amazonaws.com/models.huggingface.co/bert/xlnet-large-cased-spiece.model",
+    'XLNet-mid': "https://s3.amazonaws.com/models.huggingface.co/bert/hfl/chinese-xlnet-mid/spiece.model",
+    'XLNet-base': "https://s3.amazonaws.com/models.huggingface.co/bert/hfl/chinese-xlnet-base/spiece.model",
     }
 }
 
 PRETRAINED_POSITIONAL_EMBEDDINGS_SIZES = {
     'xlnet-base-cased': None,
     'xlnet-large-cased': None,
+    'XLNet-mid': None,
+    'XLNet-base': None,
 }
 
 SPIECE_UNDERLINE = u'▁'
