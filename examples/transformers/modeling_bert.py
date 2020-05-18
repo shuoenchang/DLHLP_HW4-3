@@ -48,6 +48,8 @@ BERT_PRETRAINED_MODEL_ARCHIVE_MAP = {
     'bert-base-cased-finetuned-mrpc': "https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-finetuned-mrpc-pytorch_model.bin",
     'bert-base-german-dbmdz-cased': "https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-german-dbmdz-cased-pytorch_model.bin",
     'bert-base-german-dbmdz-uncased': "https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-german-dbmdz-uncased-pytorch_model.bin",
+    'chinese-bert-wwm-ext': "https://s3.amazonaws.com/models.huggingface.co/bert/hfl/chinese-bert-wwm-ext/pytorch_model.bin",
+    'chinese-roberta-wwm-ext': "https://s3.amazonaws.com/models.huggingface.co/bert/hfl/chinese-roberta-wwm-ext/pytorch_model.bin"
 }
 
 

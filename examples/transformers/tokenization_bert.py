@@ -46,6 +46,8 @@ PRETRAINED_VOCAB_FILES_MAP = {
         'bert-base-cased-finetuned-mrpc': "https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-finetuned-mrpc-vocab.txt",
         'bert-base-german-dbmdz-cased': "https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-german-dbmdz-cased-vocab.txt",
         'bert-base-german-dbmdz-uncased': "https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-german-dbmdz-uncased-vocab.txt",
+        'chinese-bert-wwm-ext': "https://s3.amazonaws.com/models.huggingface.co/bert/hfl/chinese-bert-wwm-ext/vocab.txt",
+        'chinese-roberta-wwm-ext': "https://s3.amazonaws.com/models.huggingface.co/bert/hfl/chinese-roberta-wwm-ext/vocab.txt"
     }
 }
 
@@ -65,6 +67,8 @@ PRETRAINED_POSITIONAL_EMBEDDINGS_SIZES = {
     'bert-base-cased-finetuned-mrpc': 512,
     'bert-base-german-dbmdz-cased': 512,
     'bert-base-german-dbmdz-uncased': 512,
+    'chinese-bert-wwm-ext': 512,
+    'chinese-roberta-wwm-ext': 512
 }
 
 PRETRAINED_INIT_CONFIGURATION = {
